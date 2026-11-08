@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "scope": "Portfolio code excerpts only; not an independently runnable Unity project.",
+  "files": [
+    {
+      "sourceProjectRelativePath": "Assets/Scripts/Inventory/Core/ItemGridCore.cs",
+      "copiedRelativePath": "src/azit/ItemGridCore.cs",
+      "sourceEncoding": "UTF-8",
+      "outputEncoding": "UTF-8",
+      "lineEndingNormalization": "LF"
+    },
+    {
+      "sourceProjectRelativePath": "Assets/Scripts/Inventory/Utility/ItemTransferTransaction.cs",
+      "copiedRelativePath": "src/azit/ItemTransferTransaction.cs",
+      "sourceEncoding": "UTF-8",
+      "outputEncoding": "UTF-8",
+      "lineEndingNormalization": "LF"
+    },
+    {
+      "sourceProjectRelativePath": "Assets/Script/Monster/Boss/BossController.cs",
+      "copiedRelativePath": "src/boxxhooter/BossController.cs",
+      "sourceEncoding": "CP949",
+      "outputEncoding": "UTF-8",
+      "lineEndingNormalization": "LF"
+    },
+    {
+      "sourceProjectRelativePath": "Assets/Script/Monster/Boss/IBossPattern.cs",
+      "copiedRelativePath": "src/boxxhooter/IBossPattern.cs",
+      "sourceEncoding": "CP949",
+      "outputEncoding": "UTF-8",
+      "lineEndingNormalization": "LF"
+    },
+    {
+      "sourceProjectRelativePath": "Assets/Script/Monster/Boss/Pattern/Pattern_RingCircle.cs",
+      "copiedRelativePath": "src/boxxhooter/Pattern_RingCircles.cs",
+      "sourceEncoding": "CP949",
+      "outputEncoding": "UTF-8",
+      "lineEndingNormalization": "LF",
+      "filenameAdjustment": "Public copy filename matches the existing Pattern_RingCircles class; original project path retained above."
+    },
+    {
+      "sourceProjectRelativePath": "Assets/Incomplete/NoteGenerator.cs",
+      "copiedRelativePath": "src/boombeat/NoteGenerator.cs",
+      "sourceEncoding": "UTF-8",
+      "outputEncoding": "UTF-8",
+      "lineEndingNormalization": "LF"
+    },
+    {
+      "sourceProjectRelativePath": "Assets/Incomplete/NotePool.cs",
+      "copiedRelativePath": "src/boombeat/NotePool.cs",
+      "sourceEncoding": "CP949",
+      "outputEncoding": "UTF-8",
+      "lineEndingNormalization": "LF"
+    },
+    {
+      "sourceProjectRelativePath": "Assets/Incomplete/HitZone.cs",
+      "copiedRelativePath": "src/boombeat/HitZone.cs",
+      "sourceEncoding": "UTF-8",
+      "outputEncoding": "UTF-8",
+      "lineEndingNormalization": "LF"
+    },
+    {
+      "sourceProjectRelativePath": "Assets/Script/GameCoordinator.cs",
+      "copiedRelativePath": "src/the-keyng/GameCoordinator.cs",
+      "sourceEncoding": "UTF-8",
+      "outputEncoding": "UTF-8",
+      "lineEndingNormalization": "LF"
+    }
+  ]
+}
