@@ -2,17 +2,17 @@
 
 Unity와 C#으로 게임의 입력, 상태 변화, 진행 규칙을 구현합니다. 팀 프로젝트에서 담당한 코드를 **플레이 맥락 → 설계 판단 → 관련 소스** 순서로 정리했습니다.
 
-[포트폴리오 요약 PDF · 5쪽](docs/JANG_DAE_HAN_Game_Client_Portfolio.pdf) · [소스·설명·시연 자료 ZIP](https://knugame.kr/2026/wp-content/uploads/2026/11/jang-daehan-game-client-samples.zip)
+[포트폴리오 요약 PDF · 5쪽](docs/JANG_DAE_HAN_Game_Client_Portfolio.pdf) · [소스·설명·시연 자료 ZIP](https://knugame.kr/2026/wp-content/uploads/2026/11/jang-daehan-game-client-samples-v2.zip)
 
 ## 먼저 볼 구현
 
 **Azit의 비정형 인벤토리**: 아이템 그림과 점유 칸을 분리하고, 배치 검사와 실제 이동을 나눠 처리했습니다. 대상 배치가 실패하면 원래 배치로 복원을 시도하는 경로도 함께 다룹니다.
 
-[설명 읽기](projects/azit/README.md) · [배치 검사 코드](src/azit/ItemGridCore.cs#L94) · [이동 처리 코드](src/azit/ItemTransferTransaction.cs#L37) · [플레이 개요 영상](https://knugame.kr/2026/wp-content/uploads/2026/11/azit-looting.mp4)
+[설명 읽기](projects/azit/README.md) · [배치 검사 코드](src/azit/ItemGridCore.cs#L94) · [이동 처리 코드](src/azit/ItemTransferTransaction.cs#L37) · [루팅 플레이 영상](https://knugame.kr/2026/wp-content/uploads/2026/11/azit-inventory-looting.mp4)
 
 ![Azit의 가방과 루팅 화면](media/azit-loot-playtest.jpg)
 
-*영상은 탐색·루팅 맥락을 보여 줍니다. Shape 배치와 이동 실패 흐름은 연결한 코드에서 확인할 수 있습니다.*
+*영상은 선반 조사와 아이템 수집·가방 변화를 보여 줍니다. 회전 배치와 이동 실패 흐름은 연결한 코드에서 확인할 수 있습니다.*
 
 ## 프로젝트별 확인 지점
 
